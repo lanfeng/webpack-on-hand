@@ -1,0 +1,23 @@
+{
+    "name": "webpack180111",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "build": "webpack"
+    },
+    "keywords": [
+      "webpack"
+    ],
+    "author": "jia",
+    "license": "ISC",
+    "dependencies": {
+      "css-loader": "^0.28.8",
+      "file-loader": "^1.1.6",
+      "style-loader": "^0.19.1",
+      "webpack": "^3.10.0",
+      "xml-loader": "^1.2.1"
+    }
+  }
+  

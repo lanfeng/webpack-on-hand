@@ -1,0 +1,2 @@
+webpackJsonp([3],{10:function(e,o,s){"use strict";Object.defineProperty(o,"__esModule",{value:!0});var c=s(1);console.log("hello 3's square is ",Object(c.a)(3))}},[10]);
+//# sourceMappingURL=another_module.bundle.js.map

@@ -1,0 +1,15 @@
+{
+  "another_module.js": "another_module.bundle.js",
+  "another_module.js.map": "another_module.bundle.js.map",
+  "app.css": "styles.css",
+  "app.css.map": "styles.css.map",
+  "app.js": "app.bundle.js",
+  "app.js.map": "app.bundle.js.map",
+  "common.js": "common.bundle.js",
+  "common.js.map": "common.bundle.js.map",
+  "icon.png": "baa5c3ef229111ab5ac1e10e0abcaa81.png",
+  "print.js": "print.bundle.js",
+  "print.js.map": "print.bundle.js.map",
+  "vendor.js": "vendor.bundle.js",
+  "vendor.js.map": "vendor.bundle.js.map"
+}
