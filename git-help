@@ -23,3 +23,8 @@ git pull origin master --allow-unrelated-histories
 //push to remote
 git push origin master
 
+//to remove files in git
+git rm -r *
+git commit -m "delete all"
+git push origin master
+
