@@ -1,0 +1,25 @@
+//init locally
+git init
+
+//add files
+git add *
+
+// add pending files
+git commit -m "code split"
+
+//add remote repository: the url could be found from git repository
+git remote add origin git@github.com:lanfeng/webpack-on-hand.git
+
+//generate RSA public key in id_rsa.pub
+
+ssh-keygen -t rsa
+
+//create new ssh key in settings/ssh and GPG keys
+copy content in id_rsa.pub into the ssh key
+
+//merge remote to local and write some merge notes
+git pull origin master --allow-unrelated-histories
+
+//push to remote
+git push origin master
+
