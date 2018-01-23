@@ -49,3 +49,7 @@ git log
 
 //roll back file change in working area, which is added to committed
 git checkout -- git-help
+
+//roll back the pending change
+git reset HEAD git-help
+git checkout -- git-help
