@@ -1,3 +1,7 @@
+//help
+git help TheCommand
+git TheCommand --help
+
 //init locally
 git init
 
