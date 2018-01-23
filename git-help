@@ -37,10 +37,15 @@ git push origin master
    git merge FETCH_HEAD
 
 
-// check current working tree status
+//check current working tree status
 git status
 
-// show the record of changes of the repository
+//show the record of changes of the repository
 git reflog
 
 
+//show commit logs
+git log
+
+//roll back file change in working area, which is added to committed
+git checkout -- git-help
