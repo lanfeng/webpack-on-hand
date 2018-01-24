@@ -1,4 +1,8 @@
 {
+  "0.bundle.js": "0.bundle.js",
+  "0.bundle.js.map": "0.bundle.js.map",
+  "1.bundle.js": "1.bundle.js",
+  "1.bundle.js.map": "1.bundle.js.map",
   "another_module.js": "another_module.bundle.js",
   "another_module.js.map": "another_module.bundle.js.map",
   "app.css": "styles.css",
@@ -8,8 +12,6 @@
   "common.js": "common.bundle.js",
   "common.js.map": "common.bundle.js.map",
   "icon.png": "baa5c3ef229111ab5ac1e10e0abcaa81.png",
-  "print.js": "print.bundle.js",
-  "print.js.map": "print.bundle.js.map",
   "vendor.js": "vendor.bundle.js",
   "vendor.js.map": "vendor.bundle.js.map"
 }

@@ -8,7 +8,7 @@ const WebpackManifestPlugin = require('webpack-manifest-plugin')
 module.exports = {
     entry: {
         app: './src/index.js',
-        print: './src/print.js',
+    //    print: './src/print.js',  // print should not in the entry list for lazy loading
         another_module: './src/another-module.js'
     },
 
