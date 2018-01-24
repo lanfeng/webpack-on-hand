@@ -2,8 +2,8 @@
   "errors": [],
   "warnings": [],
   "version": "3.10.0",
-  "hash": "2b69a3fcbe27e791ac8d",
-  "time": 4333,
+  "hash": "5cacfe6871e79f2643d6",
+  "time": 4367,
   "publicPath": "",
   "assetsByChunkName": {
     "app": [
@@ -181,7 +181,7 @@
     },
     {
       "name": "index.html",
-      "size": 445,
+      "size": 687,
       "chunks": [],
       "chunkNames": [],
       "emitted": true
@@ -249,7 +249,7 @@
       "modules": [
         {
           "id": 10,
-          "identifier": "C:\\geek\\webpack-code-split\\lazy-loading\\src\\print.js",
+          "identifier": "C:\\geek\\webpack-on-hand\\lazy-loading\\src\\print.js",
           "name": "./src/print.js",
           "index": 14,
           "index2": 13,
@@ -262,11 +262,11 @@
             0
           ],
           "assets": [],
-          "issuer": "C:\\geek\\webpack-code-split\\lazy-loading\\src\\index.js",
+          "issuer": "C:\\geek\\webpack-on-hand\\lazy-loading\\src\\index.js",
           "issuerId": 2,
           "issuerName": "./src/index.js",
           "profile": {
-            "factory": 16,
+            "factory": 17,
             "building": 9,
             "dependencies": 5
           },
@@ -276,7 +276,7 @@
           "reasons": [
             {
               "moduleId": 2,
-              "moduleIdentifier": "C:\\geek\\webpack-code-split\\lazy-loading\\src\\index.js",
+              "moduleIdentifier": "C:\\geek\\webpack-on-hand\\lazy-loading\\src\\index.js",
               "module": "./src/index.js",
               "moduleName": "./src/index.js",
               "type": "import()",
@@ -297,8 +297,8 @@
       "origins": [
         {
           "moduleId": 2,
-          "module": "C:\\geek\\webpack-code-split\\lazy-loading\\src\\index.js",
-          "moduleIdentifier": "C:\\geek\\webpack-code-split\\lazy-loading\\src\\index.js",
+          "module": "C:\\geek\\webpack-on-hand\\lazy-loading\\src\\index.js",
+          "moduleIdentifier": "C:\\geek\\webpack-on-hand\\lazy-loading\\src\\index.js",
           "moduleName": "./src/index.js",
           "loc": "33:24-82",
           "name": null,
@@ -325,7 +325,7 @@
       "modules": [
         {
           "id": 11,
-          "identifier": "C:\\geek\\webpack-code-split\\lazy-loading\\src\\another-print.js",
+          "identifier": "C:\\geek\\webpack-on-hand\\lazy-loading\\src\\another-print.js",
           "name": "./src/another-print.js",
           "index": 15,
           "index2": 14,
@@ -338,11 +338,11 @@
             1
           ],
           "assets": [],
-          "issuer": "C:\\geek\\webpack-code-split\\lazy-loading\\src\\index.js",
+          "issuer": "C:\\geek\\webpack-on-hand\\lazy-loading\\src\\index.js",
           "issuerId": 2,
           "issuerName": "./src/index.js",
           "profile": {
-            "factory": 16,
+            "factory": 17,
             "building": 10,
             "dependencies": 4
           },
@@ -352,7 +352,7 @@
           "reasons": [
             {
               "moduleId": 2,
-              "moduleIdentifier": "C:\\geek\\webpack-code-split\\lazy-loading\\src\\index.js",
+              "moduleIdentifier": "C:\\geek\\webpack-on-hand\\lazy-loading\\src\\index.js",
               "module": "./src/index.js",
               "moduleName": "./src/index.js",
               "type": "import()",
@@ -373,8 +373,8 @@
       "origins": [
         {
           "moduleId": 2,
-          "module": "C:\\geek\\webpack-code-split\\lazy-loading\\src\\index.js",
-          "moduleIdentifier": "C:\\geek\\webpack-code-split\\lazy-loading\\src\\index.js",
+          "module": "C:\\geek\\webpack-on-hand\\lazy-loading\\src\\index.js",
+          "moduleIdentifier": "C:\\geek\\webpack-on-hand\\lazy-loading\\src\\index.js",
           "moduleName": "./src/index.js",
           "loc": "46:24-90",
           "name": null,
@@ -405,7 +405,7 @@
       "modules": [
         {
           "id": 1,
-          "identifier": "C:\\geek\\webpack-code-split\\lazy-loading\\node_modules\\lodash\\lodash.js",
+          "identifier": "C:\\geek\\webpack-on-hand\\lazy-loading\\node_modules\\lodash\\lodash.js",
           "name": "./node_modules/lodash/lodash.js",
           "index": 1,
           "index2": 2,
@@ -418,12 +418,12 @@
             2
           ],
           "assets": [],
-          "issuer": "C:\\geek\\webpack-code-split\\lazy-loading\\src\\index.js",
+          "issuer": "C:\\geek\\webpack-on-hand\\lazy-loading\\src\\index.js",
           "issuerId": 2,
           "issuerName": "./src/index.js",
           "profile": {
-            "factory": 30,
-            "building": 399
+            "factory": 31,
+            "building": 416
           },
           "failed": false,
           "errors": 0,
@@ -431,7 +431,7 @@
           "reasons": [
             {
               "moduleId": 2,
-              "moduleIdentifier": "C:\\geek\\webpack-code-split\\lazy-loading\\src\\index.js",
+              "moduleIdentifier": "C:\\geek\\webpack-on-hand\\lazy-loading\\src\\index.js",
               "module": "./src/index.js",
               "moduleName": "./src/index.js",
               "type": "harmony import",
@@ -440,7 +440,7 @@
             },
             {
               "moduleId": 10,
-              "moduleIdentifier": "C:\\geek\\webpack-code-split\\lazy-loading\\src\\print.js",
+              "moduleIdentifier": "C:\\geek\\webpack-on-hand\\lazy-loading\\src\\print.js",
               "module": "./src/print.js",
               "moduleName": "./src/print.js",
               "type": "harmony import",
@@ -449,7 +449,7 @@
             },
             {
               "moduleId": 11,
-              "moduleIdentifier": "C:\\geek\\webpack-code-split\\lazy-loading\\src\\another-print.js",
+              "moduleIdentifier": "C:\\geek\\webpack-on-hand\\lazy-loading\\src\\another-print.js",
               "module": "./src/another-print.js",
               "moduleName": "./src/another-print.js",
               "type": "harmony import",
@@ -467,7 +467,7 @@
         },
         {
           "id": 2,
-          "identifier": "C:\\geek\\webpack-code-split\\lazy-loading\\src\\index.js",
+          "identifier": "C:\\geek\\webpack-on-hand\\lazy-loading\\src\\index.js",
           "name": "./src/index.js",
           "index": 0,
           "index2": 15,
@@ -484,9 +484,8 @@
           "issuerId": null,
           "issuerName": null,
           "profile": {
-            "factory": 32,
-            "building": 19,
-            "dependencies": 13
+            "factory": 30,
+            "building": 17
           },
           "failed": false,
           "errors": 0,
@@ -500,7 +499,7 @@
         },
         {
           "id": 3,
-          "identifier": "C:\\geek\\webpack-code-split\\lazy-loading\\node_modules\\webpack\\buildin\\global.js",
+          "identifier": "C:\\geek\\webpack-on-hand\\lazy-loading\\node_modules\\webpack\\buildin\\global.js",
           "name": "(webpack)/buildin/global.js",
           "index": 2,
           "index2": 0,
@@ -513,12 +512,12 @@
             2
           ],
           "assets": [],
-          "issuer": "C:\\geek\\webpack-code-split\\lazy-loading\\node_modules\\lodash\\lodash.js",
+          "issuer": "C:\\geek\\webpack-on-hand\\lazy-loading\\node_modules\\lodash\\lodash.js",
           "issuerId": 1,
           "issuerName": "./node_modules/lodash/lodash.js",
           "profile": {
-            "factory": 542,
-            "building": 9
+            "factory": 538,
+            "building": 26
           },
           "failed": false,
           "errors": 0,
@@ -526,7 +525,7 @@
           "reasons": [
             {
               "moduleId": 1,
-              "moduleIdentifier": "C:\\geek\\webpack-code-split\\lazy-loading\\node_modules\\lodash\\lodash.js",
+              "moduleIdentifier": "C:\\geek\\webpack-on-hand\\lazy-loading\\node_modules\\lodash\\lodash.js",
               "module": "./node_modules/lodash/lodash.js",
               "moduleName": "./node_modules/lodash/lodash.js",
               "type": "cjs require",
@@ -542,7 +541,7 @@
         },
         {
           "id": 4,
-          "identifier": "C:\\geek\\webpack-code-split\\lazy-loading\\node_modules\\webpack\\buildin\\module.js",
+          "identifier": "C:\\geek\\webpack-on-hand\\lazy-loading\\node_modules\\webpack\\buildin\\module.js",
           "name": "(webpack)/buildin/module.js",
           "index": 3,
           "index2": 1,
@@ -555,12 +554,12 @@
             2
           ],
           "assets": [],
-          "issuer": "C:\\geek\\webpack-code-split\\lazy-loading\\node_modules\\lodash\\lodash.js",
+          "issuer": "C:\\geek\\webpack-on-hand\\lazy-loading\\node_modules\\lodash\\lodash.js",
           "issuerId": 1,
           "issuerName": "./node_modules/lodash/lodash.js",
           "profile": {
-            "factory": 542,
-            "building": 10
+            "factory": 539,
+            "building": 18
           },
           "failed": false,
           "errors": 0,
@@ -568,7 +567,7 @@
           "reasons": [
             {
               "moduleId": 1,
-              "moduleIdentifier": "C:\\geek\\webpack-code-split\\lazy-loading\\node_modules\\lodash\\lodash.js",
+              "moduleIdentifier": "C:\\geek\\webpack-on-hand\\lazy-loading\\node_modules\\lodash\\lodash.js",
               "module": "./node_modules/lodash/lodash.js",
               "moduleName": "./node_modules/lodash/lodash.js",
               "type": "cjs require",
@@ -584,7 +583,7 @@
         },
         {
           "id": 5,
-          "identifier": "C:\\geek\\webpack-code-split\\lazy-loading\\node_modules\\extract-text-webpack-plugin\\dist\\loader.js??ref--0-0!C:\\geek\\webpack-code-split\\lazy-loading\\node_modules\\style-loader\\index.js!C:\\geek\\webpack-code-split\\lazy-loading\\node_modules\\css-loader\\index.js!C:\\geek\\webpack-code-split\\lazy-loading\\src\\style.css",
+          "identifier": "C:\\geek\\webpack-on-hand\\lazy-loading\\node_modules\\extract-text-webpack-plugin\\dist\\loader.js??ref--0-0!C:\\geek\\webpack-on-hand\\lazy-loading\\node_modules\\style-loader\\index.js!C:\\geek\\webpack-on-hand\\lazy-loading\\node_modules\\css-loader\\index.js!C:\\geek\\webpack-on-hand\\lazy-loading\\src\\style.css",
           "name": "./src/style.css",
           "index": 4,
           "index2": 9,
@@ -597,12 +596,12 @@
             2
           ],
           "assets": [],
-          "issuer": "C:\\geek\\webpack-code-split\\lazy-loading\\src\\index.js",
+          "issuer": "C:\\geek\\webpack-on-hand\\lazy-loading\\src\\index.js",
           "issuerId": 2,
           "issuerName": "./src/index.js",
           "profile": {
-            "factory": 489,
-            "building": 12
+            "factory": 517,
+            "building": 14
           },
           "failed": false,
           "errors": 0,
@@ -610,7 +609,7 @@
           "reasons": [
             {
               "moduleId": 2,
-              "moduleIdentifier": "C:\\geek\\webpack-code-split\\lazy-loading\\src\\index.js",
+              "moduleIdentifier": "C:\\geek\\webpack-on-hand\\lazy-loading\\src\\index.js",
               "module": "./src/index.js",
               "moduleName": "./src/index.js",
               "type": "harmony import",
@@ -626,7 +625,7 @@
         },
         {
           "id": 6,
-          "identifier": "C:\\geek\\webpack-code-split\\lazy-loading\\node_modules\\file-loader\\dist\\cjs.js!C:\\geek\\webpack-code-split\\lazy-loading\\src\\icon.png",
+          "identifier": "C:\\geek\\webpack-on-hand\\lazy-loading\\node_modules\\file-loader\\dist\\cjs.js!C:\\geek\\webpack-on-hand\\lazy-loading\\src\\icon.png",
           "name": "./src/icon.png",
           "index": 8,
           "index2": 5,
@@ -641,11 +640,11 @@
           "assets": [
             "baa5c3ef229111ab5ac1e10e0abcaa81.png"
           ],
-          "issuer": "C:\\geek\\webpack-code-split\\lazy-loading\\src\\index.js",
+          "issuer": "C:\\geek\\webpack-on-hand\\lazy-loading\\src\\index.js",
           "issuerId": 2,
           "issuerName": "./src/index.js",
           "profile": {
-            "factory": 486,
+            "factory": 513,
             "building": 471
           },
           "failed": false,
@@ -654,7 +653,7 @@
           "reasons": [
             {
               "moduleId": 2,
-              "moduleIdentifier": "C:\\geek\\webpack-code-split\\lazy-loading\\src\\index.js",
+              "moduleIdentifier": "C:\\geek\\webpack-on-hand\\lazy-loading\\src\\index.js",
               "module": "./src/index.js",
               "moduleName": "./src/index.js",
               "type": "harmony import",
@@ -663,7 +662,7 @@
             },
             {
               "moduleId": 12,
-              "moduleIdentifier": "C:\\geek\\webpack-code-split\\lazy-loading\\node_modules\\css-loader\\index.js!C:\\geek\\webpack-code-split\\lazy-loading\\src\\style.css",
+              "moduleIdentifier": "C:\\geek\\webpack-on-hand\\lazy-loading\\node_modules\\css-loader\\index.js!C:\\geek\\webpack-on-hand\\lazy-loading\\src\\style.css",
               "module": "./node_modules/css-loader!./src/style.css",
               "moduleName": "./node_modules/css-loader!./src/style.css",
               "type": "cjs require",
@@ -679,7 +678,7 @@
         },
         {
           "id": 7,
-          "identifier": "C:\\geek\\webpack-code-split\\lazy-loading\\node_modules\\xml-loader\\index.js!C:\\geek\\webpack-code-split\\lazy-loading\\src\\data.xml",
+          "identifier": "C:\\geek\\webpack-on-hand\\lazy-loading\\node_modules\\xml-loader\\index.js!C:\\geek\\webpack-on-hand\\lazy-loading\\src\\data.xml",
           "name": "./src/data.xml",
           "index": 11,
           "index2": 10,
@@ -692,12 +691,12 @@
             2
           ],
           "assets": [],
-          "issuer": "C:\\geek\\webpack-code-split\\lazy-loading\\src\\index.js",
+          "issuer": "C:\\geek\\webpack-on-hand\\lazy-loading\\src\\index.js",
           "issuerId": 2,
           "issuerName": "./src/index.js",
           "profile": {
-            "factory": 449,
-            "building": 500
+            "factory": 476,
+            "building": 499
           },
           "failed": false,
           "errors": 0,
@@ -705,7 +704,7 @@
           "reasons": [
             {
               "moduleId": 2,
-              "moduleIdentifier": "C:\\geek\\webpack-code-split\\lazy-loading\\src\\index.js",
+              "moduleIdentifier": "C:\\geek\\webpack-on-hand\\lazy-loading\\src\\index.js",
               "module": "./src/index.js",
               "moduleName": "./src/index.js",
               "type": "harmony import",
@@ -723,7 +722,7 @@
         },
         {
           "id": 8,
-          "identifier": "C:\\geek\\webpack-code-split\\lazy-loading\\src\\data.json",
+          "identifier": "C:\\geek\\webpack-on-hand\\lazy-loading\\src\\data.json",
           "name": "./src/data.json",
           "index": 12,
           "index2": 11,
@@ -736,12 +735,12 @@
             2
           ],
           "assets": [],
-          "issuer": "C:\\geek\\webpack-code-split\\lazy-loading\\src\\index.js",
+          "issuer": "C:\\geek\\webpack-on-hand\\lazy-loading\\src\\index.js",
           "issuerId": 2,
           "issuerName": "./src/index.js",
           "profile": {
-            "factory": 14,
-            "building": 10
+            "factory": 15,
+            "building": 9
           },
           "failed": false,
           "errors": 0,
@@ -749,7 +748,7 @@
           "reasons": [
             {
               "moduleId": 2,
-              "moduleIdentifier": "C:\\geek\\webpack-code-split\\lazy-loading\\src\\index.js",
+              "moduleIdentifier": "C:\\geek\\webpack-on-hand\\lazy-loading\\src\\index.js",
               "module": "./src/index.js",
               "moduleName": "./src/index.js",
               "type": "harmony import",
@@ -770,8 +769,8 @@
       "origins": [
         {
           "moduleId": 2,
-          "module": "C:\\geek\\webpack-code-split\\lazy-loading\\src\\index.js",
-          "moduleIdentifier": "C:\\geek\\webpack-code-split\\lazy-loading\\src\\index.js",
+          "module": "C:\\geek\\webpack-on-hand\\lazy-loading\\src\\index.js",
+          "moduleIdentifier": "C:\\geek\\webpack-on-hand\\lazy-loading\\src\\index.js",
           "moduleName": "./src/index.js",
           "loc": "",
           "name": "app",
@@ -800,7 +799,7 @@
       "modules": [
         {
           "id": 0,
-          "identifier": "C:\\geek\\webpack-code-split\\lazy-loading\\src\\math.js",
+          "identifier": "C:\\geek\\webpack-on-hand\\lazy-loading\\src\\math.js",
           "name": "./src/math.js",
           "index": 13,
           "index2": 12,
@@ -813,12 +812,12 @@
             3
           ],
           "assets": [],
-          "issuer": "C:\\geek\\webpack-code-split\\lazy-loading\\src\\another-module.js",
-          "issuerId": 9,
-          "issuerName": "./src/another-module.js",
+          "issuer": "C:\\geek\\webpack-on-hand\\lazy-loading\\src\\index.js",
+          "issuerId": 2,
+          "issuerName": "./src/index.js",
           "profile": {
-            "factory": 21,
-            "building": 10
+            "factory": 17,
+            "building": 8
           },
           "failed": false,
           "errors": 0,
@@ -826,7 +825,7 @@
           "reasons": [
             {
               "moduleId": 2,
-              "moduleIdentifier": "C:\\geek\\webpack-code-split\\lazy-loading\\src\\index.js",
+              "moduleIdentifier": "C:\\geek\\webpack-on-hand\\lazy-loading\\src\\index.js",
               "module": "./src/index.js",
               "moduleName": "./src/index.js",
               "type": "harmony import",
@@ -835,7 +834,7 @@
             },
             {
               "moduleId": 9,
-              "moduleIdentifier": "C:\\geek\\webpack-code-split\\lazy-loading\\src\\another-module.js",
+              "moduleIdentifier": "C:\\geek\\webpack-on-hand\\lazy-loading\\src\\another-module.js",
               "module": "./src/another-module.js",
               "moduleName": "./src/another-module.js",
               "type": "harmony import",
@@ -879,7 +878,7 @@
       "modules": [
         {
           "id": 9,
-          "identifier": "C:\\geek\\webpack-code-split\\lazy-loading\\src\\another-module.js",
+          "identifier": "C:\\geek\\webpack-on-hand\\lazy-loading\\src\\another-module.js",
           "name": "./src/another-module.js",
           "index": 16,
           "index2": 16,
@@ -896,8 +895,9 @@
           "issuerId": null,
           "issuerName": null,
           "profile": {
-            "factory": 33,
-            "building": 7
+            "factory": 31,
+            "building": 20,
+            "dependencies": 13
           },
           "failed": false,
           "errors": 0,
@@ -914,8 +914,8 @@
       "origins": [
         {
           "moduleId": 9,
-          "module": "C:\\geek\\webpack-code-split\\lazy-loading\\src\\another-module.js",
-          "moduleIdentifier": "C:\\geek\\webpack-code-split\\lazy-loading\\src\\another-module.js",
+          "module": "C:\\geek\\webpack-on-hand\\lazy-loading\\src\\another-module.js",
+          "moduleIdentifier": "C:\\geek\\webpack-on-hand\\lazy-loading\\src\\another-module.js",
           "moduleName": "./src/another-module.js",
           "loc": "",
           "name": "another_module",
@@ -947,7 +947,7 @@
   "modules": [
     {
       "id": 0,
-      "identifier": "C:\\geek\\webpack-code-split\\lazy-loading\\src\\math.js",
+      "identifier": "C:\\geek\\webpack-on-hand\\lazy-loading\\src\\math.js",
       "name": "./src/math.js",
       "index": 13,
       "index2": 12,
@@ -960,12 +960,12 @@
         3
       ],
       "assets": [],
-      "issuer": "C:\\geek\\webpack-code-split\\lazy-loading\\src\\another-module.js",
-      "issuerId": 9,
-      "issuerName": "./src/another-module.js",
+      "issuer": "C:\\geek\\webpack-on-hand\\lazy-loading\\src\\index.js",
+      "issuerId": 2,
+      "issuerName": "./src/index.js",
       "profile": {
-        "factory": 21,
-        "building": 10
+        "factory": 17,
+        "building": 8
       },
       "failed": false,
       "errors": 0,
@@ -973,7 +973,7 @@
       "reasons": [
         {
           "moduleId": 2,
-          "moduleIdentifier": "C:\\geek\\webpack-code-split\\lazy-loading\\src\\index.js",
+          "moduleIdentifier": "C:\\geek\\webpack-on-hand\\lazy-loading\\src\\index.js",
           "module": "./src/index.js",
           "moduleName": "./src/index.js",
           "type": "harmony import",
@@ -982,7 +982,7 @@
         },
         {
           "moduleId": 9,
-          "moduleIdentifier": "C:\\geek\\webpack-code-split\\lazy-loading\\src\\another-module.js",
+          "moduleIdentifier": "C:\\geek\\webpack-on-hand\\lazy-loading\\src\\another-module.js",
           "module": "./src/another-module.js",
           "moduleName": "./src/another-module.js",
           "type": "harmony import",
@@ -1003,7 +1003,7 @@
     },
     {
       "id": 1,
-      "identifier": "C:\\geek\\webpack-code-split\\lazy-loading\\node_modules\\lodash\\lodash.js",
+      "identifier": "C:\\geek\\webpack-on-hand\\lazy-loading\\node_modules\\lodash\\lodash.js",
       "name": "./node_modules/lodash/lodash.js",
       "index": 1,
       "index2": 2,
@@ -1016,12 +1016,12 @@
         2
       ],
       "assets": [],
-      "issuer": "C:\\geek\\webpack-code-split\\lazy-loading\\src\\index.js",
+      "issuer": "C:\\geek\\webpack-on-hand\\lazy-loading\\src\\index.js",
       "issuerId": 2,
       "issuerName": "./src/index.js",
       "profile": {
-        "factory": 30,
-        "building": 399
+        "factory": 31,
+        "building": 416
       },
       "failed": false,
       "errors": 0,
@@ -1029,7 +1029,7 @@
       "reasons": [
         {
           "moduleId": 2,
-          "moduleIdentifier": "C:\\geek\\webpack-code-split\\lazy-loading\\src\\index.js",
+          "moduleIdentifier": "C:\\geek\\webpack-on-hand\\lazy-loading\\src\\index.js",
           "module": "./src/index.js",
           "moduleName": "./src/index.js",
           "type": "harmony import",
@@ -1038,7 +1038,7 @@
         },
         {
           "moduleId": 10,
-          "moduleIdentifier": "C:\\geek\\webpack-code-split\\lazy-loading\\src\\print.js",
+          "moduleIdentifier": "C:\\geek\\webpack-on-hand\\lazy-loading\\src\\print.js",
           "module": "./src/print.js",
           "moduleName": "./src/print.js",
           "type": "harmony import",
@@ -1047,7 +1047,7 @@
         },
         {
           "moduleId": 11,
-          "moduleIdentifier": "C:\\geek\\webpack-code-split\\lazy-loading\\src\\another-print.js",
+          "moduleIdentifier": "C:\\geek\\webpack-on-hand\\lazy-loading\\src\\another-print.js",
           "module": "./src/another-print.js",
           "moduleName": "./src/another-print.js",
           "type": "harmony import",
@@ -1065,7 +1065,7 @@
     },
     {
       "id": 2,
-      "identifier": "C:\\geek\\webpack-code-split\\lazy-loading\\src\\index.js",
+      "identifier": "C:\\geek\\webpack-on-hand\\lazy-loading\\src\\index.js",
       "name": "./src/index.js",
       "index": 0,
       "index2": 15,
@@ -1082,9 +1082,8 @@
       "issuerId": null,
       "issuerName": null,
       "profile": {
-        "factory": 32,
-        "building": 19,
-        "dependencies": 13
+        "factory": 30,
+        "building": 17
       },
       "failed": false,
       "errors": 0,
@@ -1098,7 +1097,7 @@
     },
     {
       "id": 3,
-      "identifier": "C:\\geek\\webpack-code-split\\lazy-loading\\node_modules\\webpack\\buildin\\global.js",
+      "identifier": "C:\\geek\\webpack-on-hand\\lazy-loading\\node_modules\\webpack\\buildin\\global.js",
       "name": "(webpack)/buildin/global.js",
       "index": 2,
       "index2": 0,
@@ -1111,12 +1110,12 @@
         2
       ],
       "assets": [],
-      "issuer": "C:\\geek\\webpack-code-split\\lazy-loading\\node_modules\\lodash\\lodash.js",
+      "issuer": "C:\\geek\\webpack-on-hand\\lazy-loading\\node_modules\\lodash\\lodash.js",
       "issuerId": 1,
       "issuerName": "./node_modules/lodash/lodash.js",
       "profile": {
-        "factory": 542,
-        "building": 9
+        "factory": 538,
+        "building": 26
       },
       "failed": false,
       "errors": 0,
@@ -1124,7 +1123,7 @@
       "reasons": [
         {
           "moduleId": 1,
-          "moduleIdentifier": "C:\\geek\\webpack-code-split\\lazy-loading\\node_modules\\lodash\\lodash.js",
+          "moduleIdentifier": "C:\\geek\\webpack-on-hand\\lazy-loading\\node_modules\\lodash\\lodash.js",
           "module": "./node_modules/lodash/lodash.js",
           "moduleName": "./node_modules/lodash/lodash.js",
           "type": "cjs require",
@@ -1140,7 +1139,7 @@
     },
     {
       "id": 4,
-      "identifier": "C:\\geek\\webpack-code-split\\lazy-loading\\node_modules\\webpack\\buildin\\module.js",
+      "identifier": "C:\\geek\\webpack-on-hand\\lazy-loading\\node_modules\\webpack\\buildin\\module.js",
       "name": "(webpack)/buildin/module.js",
       "index": 3,
       "index2": 1,
@@ -1153,12 +1152,12 @@
         2
       ],
       "assets": [],
-      "issuer": "C:\\geek\\webpack-code-split\\lazy-loading\\node_modules\\lodash\\lodash.js",
+      "issuer": "C:\\geek\\webpack-on-hand\\lazy-loading\\node_modules\\lodash\\lodash.js",
       "issuerId": 1,
       "issuerName": "./node_modules/lodash/lodash.js",
       "profile": {
-        "factory": 542,
-        "building": 10
+        "factory": 539,
+        "building": 18
       },
       "failed": false,
       "errors": 0,
@@ -1166,7 +1165,7 @@
       "reasons": [
         {
           "moduleId": 1,
-          "moduleIdentifier": "C:\\geek\\webpack-code-split\\lazy-loading\\node_modules\\lodash\\lodash.js",
+          "moduleIdentifier": "C:\\geek\\webpack-on-hand\\lazy-loading\\node_modules\\lodash\\lodash.js",
           "module": "./node_modules/lodash/lodash.js",
           "moduleName": "./node_modules/lodash/lodash.js",
           "type": "cjs require",
@@ -1182,7 +1181,7 @@
     },
     {
       "id": 5,
-      "identifier": "C:\\geek\\webpack-code-split\\lazy-loading\\node_modules\\extract-text-webpack-plugin\\dist\\loader.js??ref--0-0!C:\\geek\\webpack-code-split\\lazy-loading\\node_modules\\style-loader\\index.js!C:\\geek\\webpack-code-split\\lazy-loading\\node_modules\\css-loader\\index.js!C:\\geek\\webpack-code-split\\lazy-loading\\src\\style.css",
+      "identifier": "C:\\geek\\webpack-on-hand\\lazy-loading\\node_modules\\extract-text-webpack-plugin\\dist\\loader.js??ref--0-0!C:\\geek\\webpack-on-hand\\lazy-loading\\node_modules\\style-loader\\index.js!C:\\geek\\webpack-on-hand\\lazy-loading\\node_modules\\css-loader\\index.js!C:\\geek\\webpack-on-hand\\lazy-loading\\src\\style.css",
       "name": "./src/style.css",
       "index": 4,
       "index2": 9,
@@ -1195,12 +1194,12 @@
         2
       ],
       "assets": [],
-      "issuer": "C:\\geek\\webpack-code-split\\lazy-loading\\src\\index.js",
+      "issuer": "C:\\geek\\webpack-on-hand\\lazy-loading\\src\\index.js",
       "issuerId": 2,
       "issuerName": "./src/index.js",
       "profile": {
-        "factory": 489,
-        "building": 12
+        "factory": 517,
+        "building": 14
       },
       "failed": false,
       "errors": 0,
@@ -1208,7 +1207,7 @@
       "reasons": [
         {
           "moduleId": 2,
-          "moduleIdentifier": "C:\\geek\\webpack-code-split\\lazy-loading\\src\\index.js",
+          "moduleIdentifier": "C:\\geek\\webpack-on-hand\\lazy-loading\\src\\index.js",
           "module": "./src/index.js",
           "moduleName": "./src/index.js",
           "type": "harmony import",
@@ -1224,7 +1223,7 @@
     },
     {
       "id": 6,
-      "identifier": "C:\\geek\\webpack-code-split\\lazy-loading\\node_modules\\file-loader\\dist\\cjs.js!C:\\geek\\webpack-code-split\\lazy-loading\\src\\icon.png",
+      "identifier": "C:\\geek\\webpack-on-hand\\lazy-loading\\node_modules\\file-loader\\dist\\cjs.js!C:\\geek\\webpack-on-hand\\lazy-loading\\src\\icon.png",
       "name": "./src/icon.png",
       "index": 8,
       "index2": 5,
@@ -1239,11 +1238,11 @@
       "assets": [
         "baa5c3ef229111ab5ac1e10e0abcaa81.png"
       ],
-      "issuer": "C:\\geek\\webpack-code-split\\lazy-loading\\src\\index.js",
+      "issuer": "C:\\geek\\webpack-on-hand\\lazy-loading\\src\\index.js",
       "issuerId": 2,
       "issuerName": "./src/index.js",
       "profile": {
-        "factory": 486,
+        "factory": 513,
         "building": 471
       },
       "failed": false,
@@ -1252,7 +1251,7 @@
       "reasons": [
         {
           "moduleId": 2,
-          "moduleIdentifier": "C:\\geek\\webpack-code-split\\lazy-loading\\src\\index.js",
+          "moduleIdentifier": "C:\\geek\\webpack-on-hand\\lazy-loading\\src\\index.js",
           "module": "./src/index.js",
           "moduleName": "./src/index.js",
           "type": "harmony import",
@@ -1261,7 +1260,7 @@
         },
         {
           "moduleId": 12,
-          "moduleIdentifier": "C:\\geek\\webpack-code-split\\lazy-loading\\node_modules\\css-loader\\index.js!C:\\geek\\webpack-code-split\\lazy-loading\\src\\style.css",
+          "moduleIdentifier": "C:\\geek\\webpack-on-hand\\lazy-loading\\node_modules\\css-loader\\index.js!C:\\geek\\webpack-on-hand\\lazy-loading\\src\\style.css",
           "module": "./node_modules/css-loader!./src/style.css",
           "moduleName": "./node_modules/css-loader!./src/style.css",
           "type": "cjs require",
@@ -1277,7 +1276,7 @@
     },
     {
       "id": 7,
-      "identifier": "C:\\geek\\webpack-code-split\\lazy-loading\\node_modules\\xml-loader\\index.js!C:\\geek\\webpack-code-split\\lazy-loading\\src\\data.xml",
+      "identifier": "C:\\geek\\webpack-on-hand\\lazy-loading\\node_modules\\xml-loader\\index.js!C:\\geek\\webpack-on-hand\\lazy-loading\\src\\data.xml",
       "name": "./src/data.xml",
       "index": 11,
       "index2": 10,
@@ -1290,12 +1289,12 @@
         2
       ],
       "assets": [],
-      "issuer": "C:\\geek\\webpack-code-split\\lazy-loading\\src\\index.js",
+      "issuer": "C:\\geek\\webpack-on-hand\\lazy-loading\\src\\index.js",
       "issuerId": 2,
       "issuerName": "./src/index.js",
       "profile": {
-        "factory": 449,
-        "building": 500
+        "factory": 476,
+        "building": 499
       },
       "failed": false,
       "errors": 0,
@@ -1303,7 +1302,7 @@
       "reasons": [
         {
           "moduleId": 2,
-          "moduleIdentifier": "C:\\geek\\webpack-code-split\\lazy-loading\\src\\index.js",
+          "moduleIdentifier": "C:\\geek\\webpack-on-hand\\lazy-loading\\src\\index.js",
           "module": "./src/index.js",
           "moduleName": "./src/index.js",
           "type": "harmony import",
@@ -1321,7 +1320,7 @@
     },
     {
       "id": 8,
-      "identifier": "C:\\geek\\webpack-code-split\\lazy-loading\\src\\data.json",
+      "identifier": "C:\\geek\\webpack-on-hand\\lazy-loading\\src\\data.json",
       "name": "./src/data.json",
       "index": 12,
       "index2": 11,
@@ -1334,12 +1333,12 @@
         2
       ],
       "assets": [],
-      "issuer": "C:\\geek\\webpack-code-split\\lazy-loading\\src\\index.js",
+      "issuer": "C:\\geek\\webpack-on-hand\\lazy-loading\\src\\index.js",
       "issuerId": 2,
       "issuerName": "./src/index.js",
       "profile": {
-        "factory": 14,
-        "building": 10
+        "factory": 15,
+        "building": 9
       },
       "failed": false,
       "errors": 0,
@@ -1347,7 +1346,7 @@
       "reasons": [
         {
           "moduleId": 2,
-          "moduleIdentifier": "C:\\geek\\webpack-code-split\\lazy-loading\\src\\index.js",
+          "moduleIdentifier": "C:\\geek\\webpack-on-hand\\lazy-loading\\src\\index.js",
           "module": "./src/index.js",
           "moduleName": "./src/index.js",
           "type": "harmony import",
@@ -1365,7 +1364,7 @@
     },
     {
       "id": 9,
-      "identifier": "C:\\geek\\webpack-code-split\\lazy-loading\\src\\another-module.js",
+      "identifier": "C:\\geek\\webpack-on-hand\\lazy-loading\\src\\another-module.js",
       "name": "./src/another-module.js",
       "index": 16,
       "index2": 16,
@@ -1382,8 +1381,9 @@
       "issuerId": null,
       "issuerName": null,
       "profile": {
-        "factory": 33,
-        "building": 7
+        "factory": 31,
+        "building": 20,
+        "dependencies": 13
       },
       "failed": false,
       "errors": 0,
@@ -1397,7 +1397,7 @@
     },
     {
       "id": 10,
-      "identifier": "C:\\geek\\webpack-code-split\\lazy-loading\\src\\print.js",
+      "identifier": "C:\\geek\\webpack-on-hand\\lazy-loading\\src\\print.js",
       "name": "./src/print.js",
       "index": 14,
       "index2": 13,
@@ -1410,11 +1410,11 @@
         0
       ],
       "assets": [],
-      "issuer": "C:\\geek\\webpack-code-split\\lazy-loading\\src\\index.js",
+      "issuer": "C:\\geek\\webpack-on-hand\\lazy-loading\\src\\index.js",
       "issuerId": 2,
       "issuerName": "./src/index.js",
       "profile": {
-        "factory": 16,
+        "factory": 17,
         "building": 9,
         "dependencies": 5
       },
@@ -1424,7 +1424,7 @@
       "reasons": [
         {
           "moduleId": 2,
-          "moduleIdentifier": "C:\\geek\\webpack-code-split\\lazy-loading\\src\\index.js",
+          "moduleIdentifier": "C:\\geek\\webpack-on-hand\\lazy-loading\\src\\index.js",
           "module": "./src/index.js",
           "moduleName": "./src/index.js",
           "type": "import()",
@@ -1442,7 +1442,7 @@
     },
     {
       "id": 11,
-      "identifier": "C:\\geek\\webpack-code-split\\lazy-loading\\src\\another-print.js",
+      "identifier": "C:\\geek\\webpack-on-hand\\lazy-loading\\src\\another-print.js",
       "name": "./src/another-print.js",
       "index": 15,
       "index2": 14,
@@ -1455,11 +1455,11 @@
         1
       ],
       "assets": [],
-      "issuer": "C:\\geek\\webpack-code-split\\lazy-loading\\src\\index.js",
+      "issuer": "C:\\geek\\webpack-on-hand\\lazy-loading\\src\\index.js",
       "issuerId": 2,
       "issuerName": "./src/index.js",
       "profile": {
-        "factory": 16,
+        "factory": 17,
         "building": 10,
         "dependencies": 4
       },
@@ -1469,7 +1469,7 @@
       "reasons": [
         {
           "moduleId": 2,
-          "moduleIdentifier": "C:\\geek\\webpack-code-split\\lazy-loading\\src\\index.js",
+          "moduleIdentifier": "C:\\geek\\webpack-on-hand\\lazy-loading\\src\\index.js",
           "module": "./src/index.js",
           "moduleName": "./src/index.js",
           "type": "import()",
@@ -1487,7 +1487,7 @@
     },
     {
       "id": 12,
-      "identifier": "C:\\geek\\webpack-code-split\\lazy-loading\\node_modules\\css-loader\\index.js!C:\\geek\\webpack-code-split\\lazy-loading\\src\\style.css",
+      "identifier": "C:\\geek\\webpack-on-hand\\lazy-loading\\node_modules\\css-loader\\index.js!C:\\geek\\webpack-on-hand\\lazy-loading\\src\\style.css",
       "name": "./node_modules/css-loader!./src/style.css",
       "index": 5,
       "index2": 6,
@@ -1498,12 +1498,12 @@
       "prefetched": false,
       "chunks": [],
       "assets": [],
-      "issuer": "C:\\geek\\webpack-code-split\\lazy-loading\\node_modules\\extract-text-webpack-plugin\\dist\\loader.js??ref--0-0!C:\\geek\\webpack-code-split\\lazy-loading\\node_modules\\style-loader\\index.js!C:\\geek\\webpack-code-split\\lazy-loading\\node_modules\\css-loader\\index.js!C:\\geek\\webpack-code-split\\lazy-loading\\src\\style.css",
+      "issuer": "C:\\geek\\webpack-on-hand\\lazy-loading\\node_modules\\extract-text-webpack-plugin\\dist\\loader.js??ref--0-0!C:\\geek\\webpack-on-hand\\lazy-loading\\node_modules\\style-loader\\index.js!C:\\geek\\webpack-on-hand\\lazy-loading\\node_modules\\css-loader\\index.js!C:\\geek\\webpack-on-hand\\lazy-loading\\src\\style.css",
       "issuerId": 5,
       "issuerName": "./src/style.css",
       "profile": {
         "factory": 1,
-        "building": 468,
+        "building": 469,
         "dependencies": 0
       },
       "failed": false,
@@ -1518,7 +1518,7 @@
     },
     {
       "id": 13,
-      "identifier": "C:\\geek\\webpack-code-split\\lazy-loading\\node_modules\\css-loader\\lib\\url\\escape.js",
+      "identifier": "C:\\geek\\webpack-on-hand\\lazy-loading\\node_modules\\css-loader\\lib\\url\\escape.js",
       "name": "./node_modules/css-loader/lib/url/escape.js",
       "index": 6,
       "index2": 3,
@@ -1529,12 +1529,12 @@
       "prefetched": false,
       "chunks": [],
       "assets": [],
-      "issuer": "C:\\geek\\webpack-code-split\\lazy-loading\\node_modules\\css-loader\\index.js!C:\\geek\\webpack-code-split\\lazy-loading\\src\\style.css",
+      "issuer": "C:\\geek\\webpack-on-hand\\lazy-loading\\node_modules\\css-loader\\index.js!C:\\geek\\webpack-on-hand\\lazy-loading\\src\\style.css",
       "issuerId": 12,
       "issuerName": "./node_modules/css-loader!./src/style.css",
       "profile": {
-        "factory": 10,
-        "building": 20
+        "factory": 31,
+        "building": 3
       },
       "failed": false,
       "errors": 0,
@@ -1542,7 +1542,7 @@
       "reasons": [
         {
           "moduleId": 12,
-          "moduleIdentifier": "C:\\geek\\webpack-code-split\\lazy-loading\\node_modules\\css-loader\\index.js!C:\\geek\\webpack-code-split\\lazy-loading\\src\\style.css",
+          "moduleIdentifier": "C:\\geek\\webpack-on-hand\\lazy-loading\\node_modules\\css-loader\\index.js!C:\\geek\\webpack-on-hand\\lazy-loading\\src\\style.css",
           "module": "./node_modules/css-loader!./src/style.css",
           "moduleName": "./node_modules/css-loader!./src/style.css",
           "type": "cjs require",
@@ -1558,7 +1558,7 @@
     },
     {
       "id": 14,
-      "identifier": "C:\\geek\\webpack-code-split\\lazy-loading\\node_modules\\css-loader\\lib\\css-base.js",
+      "identifier": "C:\\geek\\webpack-on-hand\\lazy-loading\\node_modules\\css-loader\\lib\\css-base.js",
       "name": "./node_modules/css-loader/lib/css-base.js",
       "index": 7,
       "index2": 4,
@@ -1569,12 +1569,12 @@
       "prefetched": false,
       "chunks": [],
       "assets": [],
-      "issuer": "C:\\geek\\webpack-code-split\\lazy-loading\\node_modules\\css-loader\\index.js!C:\\geek\\webpack-code-split\\lazy-loading\\src\\style.css",
+      "issuer": "C:\\geek\\webpack-on-hand\\lazy-loading\\node_modules\\css-loader\\index.js!C:\\geek\\webpack-on-hand\\lazy-loading\\src\\style.css",
       "issuerId": 12,
       "issuerName": "./node_modules/css-loader!./src/style.css",
       "profile": {
-        "factory": 10,
-        "building": 20
+        "factory": 31,
+        "building": 3
       },
       "failed": false,
       "errors": 0,
@@ -1582,7 +1582,7 @@
       "reasons": [
         {
           "moduleId": 12,
-          "moduleIdentifier": "C:\\geek\\webpack-code-split\\lazy-loading\\node_modules\\css-loader\\index.js!C:\\geek\\webpack-code-split\\lazy-loading\\src\\style.css",
+          "moduleIdentifier": "C:\\geek\\webpack-on-hand\\lazy-loading\\node_modules\\css-loader\\index.js!C:\\geek\\webpack-on-hand\\lazy-loading\\src\\style.css",
           "module": "./node_modules/css-loader!./src/style.css",
           "moduleName": "./node_modules/css-loader!./src/style.css",
           "type": "cjs require",
@@ -1598,7 +1598,7 @@
     },
     {
       "id": 15,
-      "identifier": "C:\\geek\\webpack-code-split\\lazy-loading\\node_modules\\style-loader\\lib\\addStyles.js",
+      "identifier": "C:\\geek\\webpack-on-hand\\lazy-loading\\node_modules\\style-loader\\lib\\addStyles.js",
       "name": "./node_modules/style-loader/lib/addStyles.js",
       "index": 9,
       "index2": 8,
@@ -1609,12 +1609,12 @@
       "prefetched": false,
       "chunks": [],
       "assets": [],
-      "issuer": "C:\\geek\\webpack-code-split\\lazy-loading\\node_modules\\extract-text-webpack-plugin\\dist\\loader.js??ref--0-0!C:\\geek\\webpack-code-split\\lazy-loading\\node_modules\\style-loader\\index.js!C:\\geek\\webpack-code-split\\lazy-loading\\node_modules\\css-loader\\index.js!C:\\geek\\webpack-code-split\\lazy-loading\\src\\style.css",
+      "issuer": "C:\\geek\\webpack-on-hand\\lazy-loading\\node_modules\\extract-text-webpack-plugin\\dist\\loader.js??ref--0-0!C:\\geek\\webpack-on-hand\\lazy-loading\\node_modules\\style-loader\\index.js!C:\\geek\\webpack-on-hand\\lazy-loading\\node_modules\\css-loader\\index.js!C:\\geek\\webpack-on-hand\\lazy-loading\\src\\style.css",
       "issuerId": 5,
       "issuerName": "./src/style.css",
       "profile": {
-        "factory": 457,
-        "building": 21
+        "factory": 455,
+        "building": 25
       },
       "failed": false,
       "errors": 0,
@@ -1628,7 +1628,7 @@
     },
     {
       "id": 16,
-      "identifier": "C:\\geek\\webpack-code-split\\lazy-loading\\node_modules\\style-loader\\lib\\urls.js",
+      "identifier": "C:\\geek\\webpack-on-hand\\lazy-loading\\node_modules\\style-loader\\lib\\urls.js",
       "name": "./node_modules/style-loader/lib/urls.js",
       "index": 10,
       "index2": 7,
@@ -1639,12 +1639,12 @@
       "prefetched": false,
       "chunks": [],
       "assets": [],
-      "issuer": "C:\\geek\\webpack-code-split\\lazy-loading\\node_modules\\style-loader\\lib\\addStyles.js",
+      "issuer": "C:\\geek\\webpack-on-hand\\lazy-loading\\node_modules\\style-loader\\lib\\addStyles.js",
       "issuerId": 15,
       "issuerName": "./node_modules/style-loader/lib/addStyles.js",
       "profile": {
-        "factory": 21,
-        "building": 2
+        "factory": 24,
+        "building": 3
       },
       "failed": false,
       "errors": 0,
@@ -1652,7 +1652,7 @@
       "reasons": [
         {
           "moduleId": 15,
-          "moduleIdentifier": "C:\\geek\\webpack-code-split\\lazy-loading\\node_modules\\style-loader\\lib\\addStyles.js",
+          "moduleIdentifier": "C:\\geek\\webpack-on-hand\\lazy-loading\\node_modules\\style-loader\\lib\\addStyles.js",
           "module": "./node_modules/style-loader/lib/addStyles.js",
           "moduleName": "./node_modules/style-loader/lib/addStyles.js",
           "type": "cjs require",
@@ -1677,7 +1677,7 @@
       "assets": [
         {
           "name": "index.html",
-          "size": 544121,
+          "size": 544369,
           "chunks": [
             0
           ],
@@ -1702,21 +1702,21 @@
           "initial": true,
           "entry": true,
           "extraAsync": false,
-          "size": 541125,
+          "size": 541373,
           "names": [],
           "files": [
             "index.html"
           ],
-          "hash": "99b086ce995087cf7c52",
+          "hash": "6d15ef5247ea4ae191aa",
           "parents": [],
           "modules": [
             {
               "id": 0,
-              "identifier": "C:\\geek\\webpack-code-split\\lazy-loading\\node_modules\\html-webpack-plugin\\lib\\loader.js!C:\\geek\\webpack-code-split\\lazy-loading\\index.html",
+              "identifier": "C:\\geek\\webpack-on-hand\\lazy-loading\\node_modules\\html-webpack-plugin\\lib\\loader.js!C:\\geek\\webpack-on-hand\\lazy-loading\\index.html",
               "name": "./node_modules/html-webpack-plugin/lib/loader.js!./index.html",
               "index": 0,
               "index2": 3,
-              "size": 511,
+              "size": 759,
               "cacheable": true,
               "built": true,
               "optional": false,
@@ -1729,8 +1729,8 @@
               "issuerId": null,
               "issuerName": null,
               "profile": {
-                "factory": 59,
-                "building": 17
+                "factory": 58,
+                "building": 15
               },
               "failed": false,
               "errors": 0,
@@ -1740,11 +1740,11 @@
               "providedExports": null,
               "optimizationBailout": [],
               "depth": 0,
-              "source": "var _ = require(\"./node_modules/lodash/lodash.js\");module.exports = function (templateParams) {var compilation = templateParams.compilation;var webpack = templateParams.webpack;var webpackConfig = templateParams.webpackConfig;var htmlWebpackPlugin = templateParams.htmlWebpackPlugin;return (function(data) {\nvar __t, __p = '';\n__p += '<!DOCTYPE html>\\n<html>\\n  <head>\\n    <meta charset=\"UTF-8\">\\n    <title>output management</title>\\n  </head>\\n  <body>\\n  <h3>123</h3>\\n  </body>\\n</html>';\nreturn __p\n})();}"
+              "source": "var _ = require(\"./node_modules/lodash/lodash.js\");module.exports = function (templateParams) {var compilation = templateParams.compilation;var webpack = templateParams.webpack;var webpackConfig = templateParams.webpackConfig;var htmlWebpackPlugin = templateParams.htmlWebpackPlugin;return (function(data) {\nvar __t, __p = '';\n__p += '<!DOCTYPE html>\\n<html>\\n  <head>\\n    <meta charset=\"UTF-8\">\\n    <title>Lay loading</title>\\n  </head>\\n  <body>\\n  <h3>\\n    Ihis is to demo lazy loading. \\n    1. The lazy loading modules should not in the entry list.\\n    2. Chunks, e.g. 0.bundle.js, 1.bundle.js will be created for these modules.\\n  </h3>\\n\\n  please also refer to http://2ality.com/2017/01/import-operator.html\\n  </body>\\n</html>';\nreturn __p\n})();}"
             },
             {
               "id": 1,
-              "identifier": "C:\\geek\\webpack-code-split\\lazy-loading\\node_modules\\lodash\\lodash.js",
+              "identifier": "C:\\geek\\webpack-on-hand\\lazy-loading\\node_modules\\lodash\\lodash.js",
               "name": "./node_modules/lodash/lodash.js",
               "index": 1,
               "index2": 2,
@@ -1757,12 +1757,12 @@
                 0
               ],
               "assets": [],
-              "issuer": "C:\\geek\\webpack-code-split\\lazy-loading\\node_modules\\html-webpack-plugin\\lib\\loader.js!C:\\geek\\webpack-code-split\\lazy-loading\\index.html",
+              "issuer": "C:\\geek\\webpack-on-hand\\lazy-loading\\node_modules\\html-webpack-plugin\\lib\\loader.js!C:\\geek\\webpack-on-hand\\lazy-loading\\index.html",
               "issuerId": 0,
               "issuerName": "./node_modules/html-webpack-plugin/lib/loader.js!./index.html",
               "profile": {
-                "factory": 7,
-                "building": 231
+                "factory": 6,
+                "building": 247
               },
               "failed": false,
               "errors": 0,
@@ -1770,7 +1770,7 @@
               "reasons": [
                 {
                   "moduleId": 0,
-                  "moduleIdentifier": "C:\\geek\\webpack-code-split\\lazy-loading\\node_modules\\html-webpack-plugin\\lib\\loader.js!C:\\geek\\webpack-code-split\\lazy-loading\\index.html",
+                  "moduleIdentifier": "C:\\geek\\webpack-on-hand\\lazy-loading\\node_modules\\html-webpack-plugin\\lib\\loader.js!C:\\geek\\webpack-on-hand\\lazy-loading\\index.html",
                   "module": "./node_modules/html-webpack-plugin/lib/loader.js!./index.html",
                   "moduleName": "./node_modules/html-webpack-plugin/lib/loader.js!./index.html",
                   "type": "cjs require",
@@ -1786,7 +1786,7 @@
             },
             {
               "id": 2,
-              "identifier": "C:\\geek\\webpack-code-split\\lazy-loading\\node_modules\\webpack\\buildin\\global.js",
+              "identifier": "C:\\geek\\webpack-on-hand\\lazy-loading\\node_modules\\webpack\\buildin\\global.js",
               "name": "(webpack)/buildin/global.js",
               "index": 2,
               "index2": 0,
@@ -1799,12 +1799,12 @@
                 0
               ],
               "assets": [],
-              "issuer": "C:\\geek\\webpack-code-split\\lazy-loading\\node_modules\\lodash\\lodash.js",
+              "issuer": "C:\\geek\\webpack-on-hand\\lazy-loading\\node_modules\\lodash\\lodash.js",
               "issuerId": 1,
               "issuerName": "./node_modules/lodash/lodash.js",
               "profile": {
-                "factory": 713,
-                "building": 9
+                "factory": 710,
+                "building": 26
               },
               "failed": false,
               "errors": 0,
@@ -1812,7 +1812,7 @@
               "reasons": [
                 {
                   "moduleId": 1,
-                  "moduleIdentifier": "C:\\geek\\webpack-code-split\\lazy-loading\\node_modules\\lodash\\lodash.js",
+                  "moduleIdentifier": "C:\\geek\\webpack-on-hand\\lazy-loading\\node_modules\\lodash\\lodash.js",
                   "module": "./node_modules/lodash/lodash.js",
                   "moduleName": "./node_modules/lodash/lodash.js",
                   "type": "cjs require",
@@ -1828,7 +1828,7 @@
             },
             {
               "id": 3,
-              "identifier": "C:\\geek\\webpack-code-split\\lazy-loading\\node_modules\\webpack\\buildin\\module.js",
+              "identifier": "C:\\geek\\webpack-on-hand\\lazy-loading\\node_modules\\webpack\\buildin\\module.js",
               "name": "(webpack)/buildin/module.js",
               "index": 3,
               "index2": 1,
@@ -1841,12 +1841,12 @@
                 0
               ],
               "assets": [],
-              "issuer": "C:\\geek\\webpack-code-split\\lazy-loading\\node_modules\\lodash\\lodash.js",
+              "issuer": "C:\\geek\\webpack-on-hand\\lazy-loading\\node_modules\\lodash\\lodash.js",
               "issuerId": 1,
               "issuerName": "./node_modules/lodash/lodash.js",
               "profile": {
-                "factory": 713,
-                "building": 10
+                "factory": 711,
+                "building": 18
               },
               "failed": false,
               "errors": 0,
@@ -1854,7 +1854,7 @@
               "reasons": [
                 {
                   "moduleId": 1,
-                  "moduleIdentifier": "C:\\geek\\webpack-code-split\\lazy-loading\\node_modules\\lodash\\lodash.js",
+                  "moduleIdentifier": "C:\\geek\\webpack-on-hand\\lazy-loading\\node_modules\\lodash\\lodash.js",
                   "module": "./node_modules/lodash/lodash.js",
                   "moduleName": "./node_modules/lodash/lodash.js",
                   "type": "cjs require",
@@ -1873,8 +1873,8 @@
           "origins": [
             {
               "moduleId": 0,
-              "module": "C:\\geek\\webpack-code-split\\lazy-loading\\node_modules\\html-webpack-plugin\\lib\\loader.js!C:\\geek\\webpack-code-split\\lazy-loading\\index.html",
-              "moduleIdentifier": "C:\\geek\\webpack-code-split\\lazy-loading\\node_modules\\html-webpack-plugin\\lib\\loader.js!C:\\geek\\webpack-code-split\\lazy-loading\\index.html",
+              "module": "C:\\geek\\webpack-on-hand\\lazy-loading\\node_modules\\html-webpack-plugin\\lib\\loader.js!C:\\geek\\webpack-on-hand\\lazy-loading\\index.html",
+              "moduleIdentifier": "C:\\geek\\webpack-on-hand\\lazy-loading\\node_modules\\html-webpack-plugin\\lib\\loader.js!C:\\geek\\webpack-on-hand\\lazy-loading\\index.html",
               "moduleName": "./node_modules/html-webpack-plugin/lib/loader.js!./index.html",
               "loc": "",
               "reasons": []
@@ -1885,11 +1885,11 @@
       "modules": [
         {
           "id": 0,
-          "identifier": "C:\\geek\\webpack-code-split\\lazy-loading\\node_modules\\html-webpack-plugin\\lib\\loader.js!C:\\geek\\webpack-code-split\\lazy-loading\\index.html",
+          "identifier": "C:\\geek\\webpack-on-hand\\lazy-loading\\node_modules\\html-webpack-plugin\\lib\\loader.js!C:\\geek\\webpack-on-hand\\lazy-loading\\index.html",
           "name": "./node_modules/html-webpack-plugin/lib/loader.js!./index.html",
           "index": 0,
           "index2": 3,
-          "size": 511,
+          "size": 759,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -1902,8 +1902,8 @@
           "issuerId": null,
           "issuerName": null,
           "profile": {
-            "factory": 59,
-            "building": 17
+            "factory": 58,
+            "building": 15
           },
           "failed": false,
           "errors": 0,
@@ -1913,11 +1913,11 @@
           "providedExports": null,
           "optimizationBailout": [],
           "depth": 0,
-          "source": "var _ = require(\"./node_modules/lodash/lodash.js\");module.exports = function (templateParams) {var compilation = templateParams.compilation;var webpack = templateParams.webpack;var webpackConfig = templateParams.webpackConfig;var htmlWebpackPlugin = templateParams.htmlWebpackPlugin;return (function(data) {\nvar __t, __p = '';\n__p += '<!DOCTYPE html>\\n<html>\\n  <head>\\n    <meta charset=\"UTF-8\">\\n    <title>output management</title>\\n  </head>\\n  <body>\\n  <h3>123</h3>\\n  </body>\\n</html>';\nreturn __p\n})();}"
+          "source": "var _ = require(\"./node_modules/lodash/lodash.js\");module.exports = function (templateParams) {var compilation = templateParams.compilation;var webpack = templateParams.webpack;var webpackConfig = templateParams.webpackConfig;var htmlWebpackPlugin = templateParams.htmlWebpackPlugin;return (function(data) {\nvar __t, __p = '';\n__p += '<!DOCTYPE html>\\n<html>\\n  <head>\\n    <meta charset=\"UTF-8\">\\n    <title>Lay loading</title>\\n  </head>\\n  <body>\\n  <h3>\\n    Ihis is to demo lazy loading. \\n    1. The lazy loading modules should not in the entry list.\\n    2. Chunks, e.g. 0.bundle.js, 1.bundle.js will be created for these modules.\\n  </h3>\\n\\n  please also refer to http://2ality.com/2017/01/import-operator.html\\n  </body>\\n</html>';\nreturn __p\n})();}"
         },
         {
           "id": 1,
-          "identifier": "C:\\geek\\webpack-code-split\\lazy-loading\\node_modules\\lodash\\lodash.js",
+          "identifier": "C:\\geek\\webpack-on-hand\\lazy-loading\\node_modules\\lodash\\lodash.js",
           "name": "./node_modules/lodash/lodash.js",
           "index": 1,
           "index2": 2,
@@ -1930,12 +1930,12 @@
             0
           ],
           "assets": [],
-          "issuer": "C:\\geek\\webpack-code-split\\lazy-loading\\node_modules\\html-webpack-plugin\\lib\\loader.js!C:\\geek\\webpack-code-split\\lazy-loading\\index.html",
+          "issuer": "C:\\geek\\webpack-on-hand\\lazy-loading\\node_modules\\html-webpack-plugin\\lib\\loader.js!C:\\geek\\webpack-on-hand\\lazy-loading\\index.html",
           "issuerId": 0,
           "issuerName": "./node_modules/html-webpack-plugin/lib/loader.js!./index.html",
           "profile": {
-            "factory": 7,
-            "building": 231
+            "factory": 6,
+            "building": 247
           },
           "failed": false,
           "errors": 0,
@@ -1943,7 +1943,7 @@
           "reasons": [
             {
               "moduleId": 0,
-              "moduleIdentifier": "C:\\geek\\webpack-code-split\\lazy-loading\\node_modules\\html-webpack-plugin\\lib\\loader.js!C:\\geek\\webpack-code-split\\lazy-loading\\index.html",
+              "moduleIdentifier": "C:\\geek\\webpack-on-hand\\lazy-loading\\node_modules\\html-webpack-plugin\\lib\\loader.js!C:\\geek\\webpack-on-hand\\lazy-loading\\index.html",
               "module": "./node_modules/html-webpack-plugin/lib/loader.js!./index.html",
               "moduleName": "./node_modules/html-webpack-plugin/lib/loader.js!./index.html",
               "type": "cjs require",
@@ -1959,7 +1959,7 @@
         },
         {
           "id": 2,
-          "identifier": "C:\\geek\\webpack-code-split\\lazy-loading\\node_modules\\webpack\\buildin\\global.js",
+          "identifier": "C:\\geek\\webpack-on-hand\\lazy-loading\\node_modules\\webpack\\buildin\\global.js",
           "name": "(webpack)/buildin/global.js",
           "index": 2,
           "index2": 0,
@@ -1972,12 +1972,12 @@
             0
           ],
           "assets": [],
-          "issuer": "C:\\geek\\webpack-code-split\\lazy-loading\\node_modules\\lodash\\lodash.js",
+          "issuer": "C:\\geek\\webpack-on-hand\\lazy-loading\\node_modules\\lodash\\lodash.js",
           "issuerId": 1,
           "issuerName": "./node_modules/lodash/lodash.js",
           "profile": {
-            "factory": 713,
-            "building": 9
+            "factory": 710,
+            "building": 26
           },
           "failed": false,
           "errors": 0,
@@ -1985,7 +1985,7 @@
           "reasons": [
             {
               "moduleId": 1,
-              "moduleIdentifier": "C:\\geek\\webpack-code-split\\lazy-loading\\node_modules\\lodash\\lodash.js",
+              "moduleIdentifier": "C:\\geek\\webpack-on-hand\\lazy-loading\\node_modules\\lodash\\lodash.js",
               "module": "./node_modules/lodash/lodash.js",
               "moduleName": "./node_modules/lodash/lodash.js",
               "type": "cjs require",
@@ -2001,7 +2001,7 @@
         },
         {
           "id": 3,
-          "identifier": "C:\\geek\\webpack-code-split\\lazy-loading\\node_modules\\webpack\\buildin\\module.js",
+          "identifier": "C:\\geek\\webpack-on-hand\\lazy-loading\\node_modules\\webpack\\buildin\\module.js",
           "name": "(webpack)/buildin/module.js",
           "index": 3,
           "index2": 1,
@@ -2014,12 +2014,12 @@
             0
           ],
           "assets": [],
-          "issuer": "C:\\geek\\webpack-code-split\\lazy-loading\\node_modules\\lodash\\lodash.js",
+          "issuer": "C:\\geek\\webpack-on-hand\\lazy-loading\\node_modules\\lodash\\lodash.js",
           "issuerId": 1,
           "issuerName": "./node_modules/lodash/lodash.js",
           "profile": {
-            "factory": 713,
-            "building": 10
+            "factory": 711,
+            "building": 18
           },
           "failed": false,
           "errors": 0,
@@ -2027,7 +2027,7 @@
           "reasons": [
             {
               "moduleId": 1,
-              "moduleIdentifier": "C:\\geek\\webpack-code-split\\lazy-loading\\node_modules\\lodash\\lodash.js",
+              "moduleIdentifier": "C:\\geek\\webpack-on-hand\\lazy-loading\\node_modules\\lodash\\lodash.js",
               "module": "./node_modules/lodash/lodash.js",
               "moduleName": "./node_modules/lodash/lodash.js",
               "type": "cjs require",
@@ -2087,7 +2087,7 @@
           "modules": [
             {
               "id": 0,
-              "identifier": "C:\\geek\\webpack-code-split\\lazy-loading\\node_modules\\css-loader\\index.js!C:\\geek\\webpack-code-split\\lazy-loading\\src\\style.css",
+              "identifier": "C:\\geek\\webpack-on-hand\\lazy-loading\\node_modules\\css-loader\\index.js!C:\\geek\\webpack-on-hand\\lazy-loading\\src\\style.css",
               "name": "./node_modules/css-loader!./src/style.css",
               "index": 0,
               "index2": 3,
@@ -2104,7 +2104,7 @@
               "issuerId": null,
               "issuerName": null,
               "profile": {
-                "factory": 1,
+                "factory": 0,
                 "building": 2
               },
               "failed": false,
@@ -2119,7 +2119,7 @@
             },
             {
               "id": 1,
-              "identifier": "C:\\geek\\webpack-code-split\\lazy-loading\\node_modules\\css-loader\\lib\\url\\escape.js",
+              "identifier": "C:\\geek\\webpack-on-hand\\lazy-loading\\node_modules\\css-loader\\lib\\url\\escape.js",
               "name": "./node_modules/css-loader/lib/url/escape.js",
               "index": 1,
               "index2": 0,
@@ -2132,7 +2132,7 @@
                 0
               ],
               "assets": [],
-              "issuer": "C:\\geek\\webpack-code-split\\lazy-loading\\node_modules\\css-loader\\index.js!C:\\geek\\webpack-code-split\\lazy-loading\\src\\style.css",
+              "issuer": "C:\\geek\\webpack-on-hand\\lazy-loading\\node_modules\\css-loader\\index.js!C:\\geek\\webpack-on-hand\\lazy-loading\\src\\style.css",
               "issuerId": 0,
               "issuerName": "./node_modules/css-loader!./src/style.css",
               "profile": {
@@ -2145,7 +2145,7 @@
               "reasons": [
                 {
                   "moduleId": 0,
-                  "moduleIdentifier": "C:\\geek\\webpack-code-split\\lazy-loading\\node_modules\\css-loader\\index.js!C:\\geek\\webpack-code-split\\lazy-loading\\src\\style.css",
+                  "moduleIdentifier": "C:\\geek\\webpack-on-hand\\lazy-loading\\node_modules\\css-loader\\index.js!C:\\geek\\webpack-on-hand\\lazy-loading\\src\\style.css",
                   "module": "./node_modules/css-loader!./src/style.css",
                   "moduleName": "./node_modules/css-loader!./src/style.css",
                   "type": "cjs require",
@@ -2161,7 +2161,7 @@
             },
             {
               "id": 2,
-              "identifier": "C:\\geek\\webpack-code-split\\lazy-loading\\node_modules\\css-loader\\lib\\css-base.js",
+              "identifier": "C:\\geek\\webpack-on-hand\\lazy-loading\\node_modules\\css-loader\\lib\\css-base.js",
               "name": "./node_modules/css-loader/lib/css-base.js",
               "index": 2,
               "index2": 1,
@@ -2174,12 +2174,12 @@
                 0
               ],
               "assets": [],
-              "issuer": "C:\\geek\\webpack-code-split\\lazy-loading\\node_modules\\css-loader\\index.js!C:\\geek\\webpack-code-split\\lazy-loading\\src\\style.css",
+              "issuer": "C:\\geek\\webpack-on-hand\\lazy-loading\\node_modules\\css-loader\\index.js!C:\\geek\\webpack-on-hand\\lazy-loading\\src\\style.css",
               "issuerId": 0,
               "issuerName": "./node_modules/css-loader!./src/style.css",
               "profile": {
                 "factory": 0,
-                "building": 1
+                "building": 2
               },
               "failed": false,
               "errors": 0,
@@ -2187,7 +2187,7 @@
               "reasons": [
                 {
                   "moduleId": 0,
-                  "moduleIdentifier": "C:\\geek\\webpack-code-split\\lazy-loading\\node_modules\\css-loader\\index.js!C:\\geek\\webpack-code-split\\lazy-loading\\src\\style.css",
+                  "moduleIdentifier": "C:\\geek\\webpack-on-hand\\lazy-loading\\node_modules\\css-loader\\index.js!C:\\geek\\webpack-on-hand\\lazy-loading\\src\\style.css",
                   "module": "./node_modules/css-loader!./src/style.css",
                   "moduleName": "./node_modules/css-loader!./src/style.css",
                   "type": "cjs require",
@@ -2203,7 +2203,7 @@
             },
             {
               "id": 3,
-              "identifier": "C:\\geek\\webpack-code-split\\lazy-loading\\node_modules\\file-loader\\dist\\cjs.js!C:\\geek\\webpack-code-split\\lazy-loading\\src\\icon.png",
+              "identifier": "C:\\geek\\webpack-on-hand\\lazy-loading\\node_modules\\file-loader\\dist\\cjs.js!C:\\geek\\webpack-on-hand\\lazy-loading\\src\\icon.png",
               "name": "./src/icon.png",
               "index": 3,
               "index2": 2,
@@ -2218,7 +2218,7 @@
               "assets": [
                 "baa5c3ef229111ab5ac1e10e0abcaa81.png"
               ],
-              "issuer": "C:\\geek\\webpack-code-split\\lazy-loading\\node_modules\\css-loader\\index.js!C:\\geek\\webpack-code-split\\lazy-loading\\src\\style.css",
+              "issuer": "C:\\geek\\webpack-on-hand\\lazy-loading\\node_modules\\css-loader\\index.js!C:\\geek\\webpack-on-hand\\lazy-loading\\src\\style.css",
               "issuerId": 0,
               "issuerName": "./node_modules/css-loader!./src/style.css",
               "profile": {
@@ -2231,7 +2231,7 @@
               "reasons": [
                 {
                   "moduleId": 0,
-                  "moduleIdentifier": "C:\\geek\\webpack-code-split\\lazy-loading\\node_modules\\css-loader\\index.js!C:\\geek\\webpack-code-split\\lazy-loading\\src\\style.css",
+                  "moduleIdentifier": "C:\\geek\\webpack-on-hand\\lazy-loading\\node_modules\\css-loader\\index.js!C:\\geek\\webpack-on-hand\\lazy-loading\\src\\style.css",
                   "module": "./node_modules/css-loader!./src/style.css",
                   "moduleName": "./node_modules/css-loader!./src/style.css",
                   "type": "cjs require",
@@ -2250,8 +2250,8 @@
           "origins": [
             {
               "moduleId": 0,
-              "module": "C:\\geek\\webpack-code-split\\lazy-loading\\node_modules\\css-loader\\index.js!C:\\geek\\webpack-code-split\\lazy-loading\\src\\style.css",
-              "moduleIdentifier": "C:\\geek\\webpack-code-split\\lazy-loading\\node_modules\\css-loader\\index.js!C:\\geek\\webpack-code-split\\lazy-loading\\src\\style.css",
+              "module": "C:\\geek\\webpack-on-hand\\lazy-loading\\node_modules\\css-loader\\index.js!C:\\geek\\webpack-on-hand\\lazy-loading\\src\\style.css",
+              "moduleIdentifier": "C:\\geek\\webpack-on-hand\\lazy-loading\\node_modules\\css-loader\\index.js!C:\\geek\\webpack-on-hand\\lazy-loading\\src\\style.css",
               "moduleName": "./node_modules/css-loader!./src/style.css",
               "loc": "",
               "reasons": []
@@ -2262,7 +2262,7 @@
       "modules": [
         {
           "id": 0,
-          "identifier": "C:\\geek\\webpack-code-split\\lazy-loading\\node_modules\\css-loader\\index.js!C:\\geek\\webpack-code-split\\lazy-loading\\src\\style.css",
+          "identifier": "C:\\geek\\webpack-on-hand\\lazy-loading\\node_modules\\css-loader\\index.js!C:\\geek\\webpack-on-hand\\lazy-loading\\src\\style.css",
           "name": "./node_modules/css-loader!./src/style.css",
           "index": 0,
           "index2": 3,
@@ -2279,7 +2279,7 @@
           "issuerId": null,
           "issuerName": null,
           "profile": {
-            "factory": 1,
+            "factory": 0,
             "building": 2
           },
           "failed": false,
@@ -2294,7 +2294,7 @@
         },
         {
           "id": 1,
-          "identifier": "C:\\geek\\webpack-code-split\\lazy-loading\\node_modules\\css-loader\\lib\\url\\escape.js",
+          "identifier": "C:\\geek\\webpack-on-hand\\lazy-loading\\node_modules\\css-loader\\lib\\url\\escape.js",
           "name": "./node_modules/css-loader/lib/url/escape.js",
           "index": 1,
           "index2": 0,
@@ -2307,7 +2307,7 @@
             0
           ],
           "assets": [],
-          "issuer": "C:\\geek\\webpack-code-split\\lazy-loading\\node_modules\\css-loader\\index.js!C:\\geek\\webpack-code-split\\lazy-loading\\src\\style.css",
+          "issuer": "C:\\geek\\webpack-on-hand\\lazy-loading\\node_modules\\css-loader\\index.js!C:\\geek\\webpack-on-hand\\lazy-loading\\src\\style.css",
           "issuerId": 0,
           "issuerName": "./node_modules/css-loader!./src/style.css",
           "profile": {
@@ -2320,7 +2320,7 @@
           "reasons": [
             {
               "moduleId": 0,
-              "moduleIdentifier": "C:\\geek\\webpack-code-split\\lazy-loading\\node_modules\\css-loader\\index.js!C:\\geek\\webpack-code-split\\lazy-loading\\src\\style.css",
+              "moduleIdentifier": "C:\\geek\\webpack-on-hand\\lazy-loading\\node_modules\\css-loader\\index.js!C:\\geek\\webpack-on-hand\\lazy-loading\\src\\style.css",
               "module": "./node_modules/css-loader!./src/style.css",
               "moduleName": "./node_modules/css-loader!./src/style.css",
               "type": "cjs require",
@@ -2336,7 +2336,7 @@
         },
         {
           "id": 2,
-          "identifier": "C:\\geek\\webpack-code-split\\lazy-loading\\node_modules\\css-loader\\lib\\css-base.js",
+          "identifier": "C:\\geek\\webpack-on-hand\\lazy-loading\\node_modules\\css-loader\\lib\\css-base.js",
           "name": "./node_modules/css-loader/lib/css-base.js",
           "index": 2,
           "index2": 1,
@@ -2349,12 +2349,12 @@
             0
           ],
           "assets": [],
-          "issuer": "C:\\geek\\webpack-code-split\\lazy-loading\\node_modules\\css-loader\\index.js!C:\\geek\\webpack-code-split\\lazy-loading\\src\\style.css",
+          "issuer": "C:\\geek\\webpack-on-hand\\lazy-loading\\node_modules\\css-loader\\index.js!C:\\geek\\webpack-on-hand\\lazy-loading\\src\\style.css",
           "issuerId": 0,
           "issuerName": "./node_modules/css-loader!./src/style.css",
           "profile": {
             "factory": 0,
-            "building": 1
+            "building": 2
           },
           "failed": false,
           "errors": 0,
@@ -2362,7 +2362,7 @@
           "reasons": [
             {
               "moduleId": 0,
-              "moduleIdentifier": "C:\\geek\\webpack-code-split\\lazy-loading\\node_modules\\css-loader\\index.js!C:\\geek\\webpack-code-split\\lazy-loading\\src\\style.css",
+              "moduleIdentifier": "C:\\geek\\webpack-on-hand\\lazy-loading\\node_modules\\css-loader\\index.js!C:\\geek\\webpack-on-hand\\lazy-loading\\src\\style.css",
               "module": "./node_modules/css-loader!./src/style.css",
               "moduleName": "./node_modules/css-loader!./src/style.css",
               "type": "cjs require",
@@ -2378,7 +2378,7 @@
         },
         {
           "id": 3,
-          "identifier": "C:\\geek\\webpack-code-split\\lazy-loading\\node_modules\\file-loader\\dist\\cjs.js!C:\\geek\\webpack-code-split\\lazy-loading\\src\\icon.png",
+          "identifier": "C:\\geek\\webpack-on-hand\\lazy-loading\\node_modules\\file-loader\\dist\\cjs.js!C:\\geek\\webpack-on-hand\\lazy-loading\\src\\icon.png",
           "name": "./src/icon.png",
           "index": 3,
           "index2": 2,
@@ -2393,7 +2393,7 @@
           "assets": [
             "baa5c3ef229111ab5ac1e10e0abcaa81.png"
           ],
-          "issuer": "C:\\geek\\webpack-code-split\\lazy-loading\\node_modules\\css-loader\\index.js!C:\\geek\\webpack-code-split\\lazy-loading\\src\\style.css",
+          "issuer": "C:\\geek\\webpack-on-hand\\lazy-loading\\node_modules\\css-loader\\index.js!C:\\geek\\webpack-on-hand\\lazy-loading\\src\\style.css",
           "issuerId": 0,
           "issuerName": "./node_modules/css-loader!./src/style.css",
           "profile": {
@@ -2406,7 +2406,7 @@
           "reasons": [
             {
               "moduleId": 0,
-              "moduleIdentifier": "C:\\geek\\webpack-code-split\\lazy-loading\\node_modules\\css-loader\\index.js!C:\\geek\\webpack-code-split\\lazy-loading\\src\\style.css",
+              "moduleIdentifier": "C:\\geek\\webpack-on-hand\\lazy-loading\\node_modules\\css-loader\\index.js!C:\\geek\\webpack-on-hand\\lazy-loading\\src\\style.css",
               "module": "./node_modules/css-loader!./src/style.css",
               "moduleName": "./node_modules/css-loader!./src/style.css",
               "type": "cjs require",
