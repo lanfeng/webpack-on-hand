@@ -44,6 +44,7 @@ module.exports = {
 
     plugins: [
         new CleanWebpackPlugin(['dist']),
+        new webpack.HashedModuleIdsPlugin(),
         new webpack.optimize.CommonsChunkPlugin({
             name: 'common',
             minChunks: 2  //if missing here, the minChunks is equal to the number of entries
@@ -68,7 +69,7 @@ module.exports = {
     ],
 
     output: {
-        filename: '[name].bundle.js',
+        filename: '[name].[chunkhash].js',
         path: path.resolve(__dirname, 'dist')
     }
 }

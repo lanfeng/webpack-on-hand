@@ -57,3 +57,6 @@ git checkout -- git-help
 //roll back the pending change
 git reset HEAD git-help
 git checkout -- git-help
+
+//check changes in a specific file
+git diff git-help
