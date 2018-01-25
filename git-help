@@ -60,3 +60,6 @@ git checkout -- git-help
 
 //check changes in a specific file
 git diff git-help
+
+//list git config
+git config --list
